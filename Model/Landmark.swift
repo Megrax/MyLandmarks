@@ -2,7 +2,7 @@
 //  Landmark.swift
 //  Landmarks
 //
-//  Created by Geronimo on 2021/1/13.
+//  Created by Megrax on 2021/1/13.
 //
 
 import Foundation

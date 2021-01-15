@@ -2,15 +2,20 @@
 //  LandmarkList.swift
 //  Landmarks
 //
-//  Created by Geronimo on 2021/1/13.
+//  Created by Megrax on 2021/1/13.
 //
 
 import SwiftUI
 
 struct LandmarkList: View {
     var body: some View {
-        List(landmarks) { landmark in
-            LandmarkRow(landmark: landmark)
+        NavigationView {
+            List(landmarks) { landmark in
+                NavigationLink(destination: LandmarkDetail()) {
+                    LandmarkRow(landmark: landmark)
+                }
+            }
+            .navigationTitle("Landmarks")
         }
     }
 }

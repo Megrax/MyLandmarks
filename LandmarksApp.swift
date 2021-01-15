@@ -2,7 +2,7 @@
 //  LandmarksApp.swift
 //  Landmarks
 //
-//  Created by Geronimo on 2021/1/12.
+//  Created by Megrax on 2021/1/12.
 //
 
 import SwiftUI
